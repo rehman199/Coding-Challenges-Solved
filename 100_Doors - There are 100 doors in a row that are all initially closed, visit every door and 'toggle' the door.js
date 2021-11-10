@@ -1,3 +1,8 @@
+// There are 100 doors in a row that are all initially closed. You make 100 passes by the doors. 
+// The first time through, visit every door and 'toggle' the door (if the door is closed, open it; if it is open, close it). 
+
+//Implement a function to determine the state of the doors after the last pass. Return the final result in an array, with only the door number included in the array if it is open.
+
 function getFinalOpenedDoors(numDoors) {
   let arr=new Array(numDoors);
   
