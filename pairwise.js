@@ -1,3 +1,5 @@
+// Given an array arr, find element pairs whose sum equal the second argument arg and return the sum of their indices.
+
 function pairwise(arr, arg) {
 	let indexArr=[];
 	for(let i=0;i<arr.length;i++){
