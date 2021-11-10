@@ -1,3 +1,5 @@
+// Return the number of total permutations of the provided string that don't have repeated consecutive letters. Assume that all characters in the provided string are each unique.
+
 function permAlone(str) {
 	let s=Array.from(new Set(str.split('')));
 	console.log(s);
@@ -48,14 +50,3 @@ function perm(arr,s,l,r){
 
 
 console.log(permAlone('abcdefa'));
-
-/* let arr=['abba','abba','abba','abba','abba','abba','abba'];
-let reStr='(aa|bb)';
-let re=new RegExp(reStr);
-let count=0
-for(let i=0;i<arr.length;i++){
-	if(re.test(arr[i])){
-		count++;
-	}
-}
-console.log('count: ',count); */
