@@ -1,3 +1,8 @@
+// The aim of the game is to arrange four numbers in a way that when evaluated, the result is 24
+
+// Implement a function that takes a string of four digits as its argument, with each digit from 1 to 9 (inclusive) with repetitions allowed, 
+// and returns an arithmetic expression that evaluates to the number 24. If no such solution exists, return "no solution exists".
+
 function solve24 (numStr) {
   numStr=numStr.split('');
   let exp='';
